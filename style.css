@@ -1,0 +1,16 @@
+.card {
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+#hh {
+background-color:darkred;
+color:honeydew ;
+font-size:larger;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+.price {
+    color:cadetblue  ;
+}
