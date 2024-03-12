@@ -1,16 +1,68 @@
 .card {
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+  max-width: 450px;
+  margin: auto;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color:azure;
+  flex: 10;
+  margin: 80px;
+  border-radius: 4px;
+  
+}
 #hh {
-background-color:darkred;
+background-color:black;
 color:honeydew ;
 font-size:larger;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-.price {
-    color:cadetblue  ;
+
 }
+.price {
+/* color:; */
+font-size: 20px;
+font-weight: bold;
+text-decoration: underline;
+border-style: dotted;
+border-width: 2px;
+}
+#ps{
+font-family: "Arial", sans-serif;
+font-size: 16px;
+line-height: 1.6;
+color:goldenrod  ;
+text-align: justify;
+padding: 20px;
+background-color:azure ;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+background-color: black;
+}
+#btn0{
+padding: 10px 20px;
+background-color: #4CAF50;
+border-radius: 5px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer;
+
+}
+.snis{
+position: relative;
+width: 80%;
+padding: 40px 0px;
+height: auto;
+display: flex;
+flex-wrap: nowrap;
+overflow-x: hidden;
+overflow-y: hidden;
+scroll-behavior: smooth;
+}
+.card img {
+width: 100%;
+height: auto;
+}
+
